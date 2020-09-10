@@ -1,0 +1,808 @@
+body{
+    font-family: "Raleway";
+}
+
+h1{
+    font-family: "Century Gothic";
+}
+
+h2{
+    font-family: "Raleway";
+}
+
+h3{
+    font-family: "Raleway";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#header
+{
+    float: right;
+}
+
+#header ul{
+    list-style-type: none;
+}
+
+#header ul li{
+    display: inline-block; 
+}
+
+#header ul li a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.6s ease;
+}
+
+#header ul li a:hover{
+    background: black;
+    color: white;
+
+}
+
+#introduction{
+    clear: both;
+    text-align: left;
+    font-size: 50px; 
+    font-weight: bold;
+    padding: 10px;
+    animation: Slide_Up 2.1s ease;   
+}
+
+
+#bodyText
+{
+    margin-top: -50px;
+    font-size: 30px;
+    animation: Slide_Up 2.1s ease;   
+}
+
+#cottageCaption
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    animation: Slide_Up 2.1s ease;   
+}
+
+#cottagePhotos
+{
+    padding: 10px;
+    animation: Slide_Up 2.1s ease;   
+}
+
+img.cottage1
+{
+    padding: 5px;
+    float: left;
+    width: 530px;
+    height: auto;
+}
+
+img.cottage2
+{
+    padding: 5px;
+    clear: left;
+    float: left; 
+    width: 530px;
+    height: auto;
+}
+
+img.cottage3
+{
+    padding: 5px;
+    width: auto;
+    height: 710px; 
+}
+
+#photographyClassCaption
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation: Slide_Up 2.1s ease;   
+}
+
+#photographyClassPhotos
+{
+    animation: Slide_Up 2.1s ease; 
+}
+
+img.schoolPhotog1
+{
+    float: left;
+    padding: 5px;
+    width: auto;
+    height: 265px;
+}
+
+img.schoolPhotog2
+{
+    float: left; 
+    padding: 5px;
+    height: 265px;
+    width: auto; 
+}
+
+img.schoolPhotog3
+{
+    float: left; 
+    padding: 5px;
+    width: auto;
+    height: 265px;
+}
+
+img.schoolPhotog4
+{
+    float: left; 
+    padding: 5px;
+    width: 535px;
+    height: auto;
+}
+
+img.schoolPhotog5
+{
+    float: left;
+    padding: 5px;
+    width: auto;
+    height: 670px;
+}
+
+img.schoolPhotog6
+{
+    margin-top: -310px;
+    float: left; 
+    padding: 5px;
+    width: 535px;
+    height: auto;
+}
+
+img.schoolPhotog7
+{
+    float: left; 
+    padding: 5px;
+    width: 445px;
+    height: auto;
+}
+
+img.schoolPhotog8
+{
+    float: left; 
+    padding: 5px;
+    width: auto; 
+    height: 670px;
+}
+
+img.schoolPhotog9
+{
+    float: left; 
+    padding: 5px;
+    width: 535px;
+    height: 782px;
+    margin-top: -485px;
+}
+
+img.schoolPhotog10
+{
+    float: left; 
+    padding: 5px;
+    width: 445px;
+    height: auto;
+}
+
+#schoolCaption
+{
+    clear: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+img.schoolYB1
+{
+    float: left;
+    padding: 5px;
+    width: 400px;
+    height: auto;
+}
+
+img.schoolYB2
+{
+    float: left; 
+    padding: 5px;
+    height: auto;
+    width: 585px;
+}
+
+img.schoolYB3
+{
+    clear: left;
+    float: left; 
+    padding: 5px;
+    width: 400px; 
+    height: auto; 
+}
+
+img.schoolYB4
+{
+    padding: 5px;
+    width: 585px;
+    height: auto;
+}
+
+img.schoolYB5
+{ 
+    padding: 5px; 
+    width: 585px;
+    height: auto; 
+}
+
+img.schoolYB6
+{
+    float: left;
+    margin-top: -380px;
+    padding: 5px;
+    width: 400px;
+    height: auto;
+}
+
+img.schoolYB7
+{
+    float: left; 
+    padding: 5px;
+    width: 585px;
+    height: auto;
+}
+
+img.schoolYB8
+{
+    float: left;
+    padding: 5px;
+    width: 400px;
+    height: auto;
+    margin-top: -580px;
+}
+
+#HOACaption
+{
+    clear: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.schoolHOA1
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA2
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA3
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA4
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA5
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA6
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA7
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA8
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA9
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.schoolHOA10
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+#shadCaption
+{
+    clear: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.shad1
+{
+    float: left; 
+    padding: 5px;
+    width: 995px;
+    height: auto;
+}
+
+img.shad2
+{
+    float: left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.shad3
+{
+    float: left;
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.shad4
+{
+    float:left; 
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.shad5
+{
+    float: left; 
+    padding: 5px;
+    width: 241.5px;
+    height: auto;
+}
+
+img.shad6
+{
+    float: left; 
+    padding: 5px;
+    width: 241.5px;
+    height: auto;
+}
+
+img.shad7
+{
+    float: left; 
+    padding: 5px;
+    width: 241.5px;
+    height: auto;
+}
+
+img.shad8
+{
+    float: left;
+    padding: 5px;
+    width: 241.5px;
+    height: auto;
+}
+
+img.shad9
+{
+    float: left; 
+    padding: 5px;
+    width: 415px;
+    height: 275px;
+}
+
+img.shad10
+{
+    float: left;
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.shad11
+{
+    float: left;
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.shad12
+{
+    float: left;
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.shad13
+{
+    float: left;
+    padding: 5px;
+    width: 663px;
+    height: auto;
+}
+
+img.shad14
+{
+    float: left;
+    padding: 5px;
+    width: 325px;
+    height: auto;
+}
+
+img.shad15
+{
+    float: left;
+    padding: 5px;
+    width: 325px;
+    height: 217px;
+}
+
+img.shad16
+{
+    float: left;
+    padding: 5px;
+    width: 326px;
+    height: auto;
+}
+
+img.shad17
+{
+    float: left;
+    padding: 5px;
+    width: 326px;
+    height: auto;
+}
+
+img.shad18
+{
+    float: left;
+    padding: 5px;
+    width: 326px;
+    height: auto;
+}
+
+img.shad19
+{
+    clear: left;
+    float: left;
+    padding: 5px;
+    width: 180px;
+    height: 265px;
+}
+
+img.shad20
+{
+    float: left;
+    padding: 5px;
+    width: 399px;
+    height: auto;
+}
+
+img.shad21
+{
+    float: left;
+    padding: 5px;
+    width: 399px;
+    height: auto;
+}
+
+img.shad22
+{
+    float: left;
+    padding: 5px;
+    width: 494px;
+    height: auto;
+}
+
+img.shad23
+{
+    float: left;
+    padding: 5px;
+    width: 494px;
+    height: auto;
+}
+
+#winter2019Caption
+{
+    clear: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.winter1
+{
+    float: left; 
+    padding: 5px;
+    width: 479px;
+    height: auto;
+}
+
+img.winter2
+{
+    float: left; 
+    padding: 5px; 
+    width: 249px;
+    height: auto;
+}
+
+img.winter3
+{
+    float: left; 
+    padding: 5px;
+    width: 249px;
+    height: auto;
+}
+
+img.winter4
+{
+    float: left;
+    padding: 5px;
+    width: 508px;
+    height: 335px;
+}
+
+#summer2020Caption
+{
+    clear: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.summer1
+{
+    float: left;
+    padding: 5px;
+    width: 230px;
+    height: auto;
+}
+
+img.summer2
+{
+    float: left;
+    padding: 5px;
+    width: 515px;
+    height: auto;
+}
+
+img.summer3
+{
+    float: left; 
+    padding: 5px;
+    width: 230px;
+    height: auto;
+}
+
+img.summer4
+{
+    float: left; 
+    padding: 5px;
+    width: 412px;
+    height: auto;
+}
+
+img.summer5
+{
+    float: left; 
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.summer6
+{
+    float: left; 
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.summer7
+{
+    float: left; 
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.summer8
+{
+    clear: left;
+    float: left; 
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.summer9
+{
+    float: left; 
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+
+img.summer10
+{
+    float: left; 
+    padding: 5px;
+    width: 412px;
+    height: auto;
+}
+
+img.summer11
+{
+    float: left; 
+    padding: 5px;
+    width: 184px;
+    height: auto;
+}
+
+img.summer12
+{
+    clear: left;
+    float: left; 
+    padding: 5px;
+    width: 157.5px;
+    height: auto;
+}
+
+img.summer13
+{
+    float: left; 
+    padding: 5px;
+    width: 157.5px;
+    height: auto;
+}
+
+img.summer14
+{
+    float: left; 
+    padding: 5px;
+    width: 157.5px;
+    height: auto;
+}
+
+img.summer15
+{
+    float: left; 
+    padding: 5px;
+    width: 157.5px;
+    height: auto;
+}
+
+img.summer16
+{
+    float: left; 
+    padding: 5px;
+    width: 157.5px;
+    height: auto;
+}
+
+img.summer17
+{
+    float: left; 
+    padding: 5px;
+    width: 157.5px;
+    height: auto;
+}
+
+img.summer18
+{
+    float: left;
+    padding: 5px;
+    width: 230px;
+    height: auto;
+}
+
+img.summer19
+{
+    float: left;
+    padding: 5px;
+    width: 230px;
+    height: auto;
+}
+
+img.summer20
+{
+    float: left; 
+    padding: 5px;
+    width: 515px;
+    height: auto;
+}
+
+#footer h1{
+    clear: left;
+    font-size: 70px;
+    float: left;
+}
+
+
+#footer ul{
+    margin-top: -20px;
+    margin-left: -30px;
+    clear: left;
+    float: left;
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+
+#footer ul h2 a{
+    text-decoration: none;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.cool-link:hover::after{
+    width: 100%; 
+    transition: width .3s;
+}
+
+@keyframes Slide_Up{
+    0%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    }
+    

@@ -1,0 +1,246 @@
+body{
+    font-family: "Raleway";
+}
+
+h1{
+    font-family: "Century Gothic";
+}
+
+h2{
+    font-family: "Raleway";
+}
+
+h3{
+    font-family: "Century Gothic";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#header
+{
+    float: right;
+}
+
+#header ul{
+    list-style-type: none;
+    margin-top: 25px; 
+}
+
+#header ul li{
+    display: inline-block; 
+}
+
+#header ul li a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.6s ease;
+}
+
+#header ul li a:hover{
+    background: black;
+    color: white;
+
+}
+
+#mainIntroduction{
+    clear: both;
+    height: 100vh; 
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+#introduction1
+{
+    text-align: left;
+    clear: both;
+    animation: Slide_Up 2.1s ease;   
+}
+
+#david
+{
+    text-align: left;
+    font-size: 70px; 
+    font-weight: bold;
+    margin-top: -50px; 
+    animation: Slide_Up 2.1s ease;   
+}
+
+#introduction2
+{
+    text-align: left; 
+    margin-top: -50px;
+    animation: Slide_Up 2.1s ease;   
+}
+
+img{
+    width: auto;
+}
+
+.card{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 10rem;
+}
+
+.card img{
+    height: 800px;
+}
+
+.card > div{
+    padding: 4rem 1rem 0rem;
+    margin-top: 4rem;
+}
+
+.card h2{
+    margin-top: -3px;
+}
+
+.card:nth-child(even) img{
+    order: 2; 
+}
+
+#aboutMeHeading
+{
+    font-size: 50px; 
+    font-weight: bold;
+    padding: 20px;
+}
+
+#aboutMeBody
+{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#aboutMeBody h2 a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid black;
+    transition: 0.6s ease;
+}
+
+#aboutMeBody h2 a:hover{
+    background: black;
+    color: white;
+}
+
+
+#photographyHeading
+{
+    font-size: 50px; 
+    font-weight: bold;
+    padding: 20px;  
+}
+
+#photographyBody
+{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#photographyBody h2 a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid black;
+    transition: 0.6s ease; 
+}
+
+#photographyBody h2 a:hover{
+    background: black;
+    color: white;
+}
+
+
+#resumeHeading
+{
+    font-size: 50px; 
+    font-weight: bold;
+    padding: 20px;
+}
+
+#resumeBody
+{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#resumeBody h2 a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid black;
+    transition: 0.6s ease;
+}
+
+#resumeBody h2 a:hover{
+    background: black;
+    color: white;
+}
+
+
+#footer h3{
+    margin-top: -40px;
+    font-size: 70px;
+    float: left;
+}
+
+
+#footer ul{
+    margin-top: -20px;
+    margin-left: -30px;
+    clear: left;
+    float: left;
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+
+#footer ul h2 a{
+    text-decoration: none;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.cool-link:hover::after{
+    width: 100%; 
+    transition: width .3s;
+}
+
+
+@keyframes Slide_Up{
+0%{
+    transform: translateY(150px);
+}
+100%{
+    transform: translateY(0);
+}
+}
+
+@media(max-width: 700px){
+    .card{
+        display:block;
+    }
+}
