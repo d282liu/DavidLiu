@@ -1,22 +1,24 @@
 body{
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
-    font-family: "Century Gothic";
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 h2{
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
 }
 
 h3{
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: larger;
 }
 
 #container{
