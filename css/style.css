@@ -1,22 +1,24 @@
 body{
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
-    font-family: "Century Gothic";
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 h2{
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
 }
 
 h3{
-    font-family: "Century Gothic";
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: larger;
 }
 
 #container{
@@ -66,22 +68,24 @@ a {
     text-align: left;
     clear: both;
     animation: Slide_Up 2.1s ease;   
+    font-size: 20px;
 }
 
 #david
 {
     text-align: left;
-    font-size: 70px; 
+    font-size: 90px; 
     font-weight: bold;
-    margin-top: -50px; 
+    margin-top: -80px; 
     animation: Slide_Up 2.1s ease;   
 }
 
 #introduction2
 {
     text-align: left; 
-    margin-top: -50px;
+    margin-top: -80px;
     animation: Slide_Up 2.1s ease;   
+    font-size: 20px;
 }
 
 img{
@@ -93,6 +97,11 @@ img{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     margin-bottom: 10rem;
+}
+
+.card a{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card img{

@@ -3,6 +3,9 @@
 <head>
     <title>Work!</title>
     <link rel = "stylesheet" type ="text/css" href = "css/styleWork.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id = "container">
@@ -17,18 +20,35 @@
         <div id = "introduction">
             <h1>My Work!</h1>
         </div>
-        <div id = "projects">
-            <h2>I will be posting my projects here as I complete them :D</h2>
-        </div>
-        
+        <section class = "card" data-aos="fade-left">
+            <img src = "change.orgMain.png" class="changeImg">
+            <div id = "change">
+                <div id = "changeHeading">
+                    <h3>Change.org App Concept</h3>
+                </div>
+                <div id = "changeBody">
+                    <h2>A mobile application design and prototype for the popular petition website Change.org!</h2>
+                </div>
+                <div id = "changeLink">
+                    <h2><a href = "changeApp.html">Check it out!</a></h2>
+                </div>
+            </div>    
+        </section>
     <div id = "footer">
         <h3>Contacts!</h3>
         <ul>
             <h2> Connect with me on <a href = "https://www.linkedin.com/in/davidliu13/" target="_blank" class = "cool-link">Linkedin</a></h2>
             <h2> Shoot me an email here: <a href = "mailto: david.liu742@gmail.com?"class = "cool-link">Email</a></h2>
-            <h2> Download my resume: <a href = "David Liu RESUME JULY.pdf" class = "cool-link" download>Resume</a></h2>
+            <h2> Download my resume: <a href = "DAVID LIU RESUME MARCH.pdf" class = "cool-link" download>Resume</a></h2>
         </ul>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>
 </body>
 </html>
 

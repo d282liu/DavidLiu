@@ -1,22 +1,24 @@
 body{
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
-    font-family: "Century Gothic";
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 h2{
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
 }
 
 h3{
-    font-family: "Century Gothic";
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: larger;
 }
 
 #container{
@@ -64,12 +66,72 @@ a {
     animation: Slide_Up 2.1s ease;   
 }
 
-#projects h2{
-    clear: both;
-    text-align: left;
-    padding: 10px;
-    animation: Slide_Up 2.1s ease; 
+img{
+    width: auto;
 }
+
+.card{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 10rem;
+}
+
+.card img{
+    height: 800px;
+}
+
+.card > div{
+    padding: 4rem 1rem 0rem;
+    margin-top: 4rem;
+}
+
+.card a{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card h2{
+    margin-top: -3px;
+}
+
+.card:nth-child(even) img{
+    order: 2; 
+}
+
+
+#changeHeading
+{
+    font-size: 36px; 
+    font-weight: bold;
+    padding: 20px;
+    margin-left: -60px;
+}
+
+#changeBody
+{
+    font-size: 18px;
+    margin-left: -40px;
+}
+
+#changeLink
+{
+    padding-top: 40px;
+    margin-left: -40px;
+}
+#changeLink h2 a{
+    text-decoration: none; 
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid black;
+    transition: 0.6s ease;
+}
+
+#changeLink h2 a:hover{
+    background: black;
+    color: white;
+}
+
 #footer h3{
     clear: left;
     font-size: 70px;

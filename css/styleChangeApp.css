@@ -16,6 +16,7 @@ h3{
 
 p{
     font-weight: bold;
+    font-size: 20px;
 }
 
 a {
@@ -62,26 +63,62 @@ a {
 #introduction{
     clear: both;
     text-align: left;
-    font-size: 50px; 
+    font-size: 36px; 
     font-weight: bold;
     padding: 10px;
     animation: Slide_Up 2.1s ease;   
 }
 
-img.aboutMeImg{
-    margin-right: 50px;
-    margin-bottom: 50px;
-    float: left; 
-    width: 500px;
-    height: auto;
+#bodyText1
+{
+    margin-top: -40px;
+    font-size: 20px;
     animation: Slide_Up 2.1s ease;   
+    text-align: justify;
 }
 
-#bodyText
+#bodyText2
 {
     font-size: 20px;
     animation: Slide_Up 2.1s ease;   
     text-align: justify;
+}
+
+#bodyText3
+{
+    font-size: 20px;
+    animation: Slide_Up 2.1s ease;   
+    text-align: justify;
+}
+
+#bodyText4
+{
+    font-size: 20px;
+    animation: Slide_Up 2.1s ease;   
+    text-align: justify;
+}
+
+img.change2
+{
+    width: 68%;
+}
+
+#bodyText5
+{
+    font-size: 20px;
+    animation: Slide_Up 2.1s ease;   
+    text-align: justify;
+}
+
+img.change1
+{
+    width: 100%;
+    animation: Slide_Up 2.1s ease; 
+}
+
+#content
+{
+    width: 100%;
 }
 
 #footer h3{
